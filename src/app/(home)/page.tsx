@@ -1,11 +1,14 @@
-import Link from "next/link";
+import HeroServices from "../_components/HeroServices";
 import HomeHero from "../_pages/HomeHero";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col ">
-      <div className="w-full mt-36 px-8 md:px-16 lg:px-32">
+    <main className="flex min-h-screen flex-col gap-8">
+      <div className="w-full px-8 md:px-16 lg:px-32">
         <HomeHero />
+      </div>
+      <div className="w-full px-8 md:px-16 lg:px-32">
+        <HeroServices />
       </div>
     </main>
   );

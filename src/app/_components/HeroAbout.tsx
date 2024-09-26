@@ -51,7 +51,7 @@ const HeroAbout = () => {
             timeless elegance. We draw inspiration from the latest trends and
             timeless classics to create spaces that are not only beautiful.
           </p>
-          <button className="rounded-full p-2 px-4 text-lg capitalize ring-1 ring-black duration-700 hover:bg-black hover:text-white">
+          <button className="rounded-full w-fit p-2 px-8 text-lg capitalize ring-1 ring-black duration-700 hover:bg-black hover:text-white">
             Learn more about us
           </button>
         </div>

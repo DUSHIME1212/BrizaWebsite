@@ -3,6 +3,7 @@ import "~/styles/globals.css";
 import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import Navbar from "./_components/Navbar";
+import Footer from "./_components/Footer";
 
 export const metadata: Metadata = {
   title: "Briza Art",
@@ -19,7 +20,10 @@ export default function RootLayout({
         <div>
           <Navbar />
         </div>
-        <main>{children}</main>
+        <main className="mt-32">{children}</main>
+        <div>
+          <Footer/>
+        </div>
       </body>
     </html>
   );
