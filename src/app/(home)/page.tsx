@@ -1,4 +1,5 @@
 import HeroServices from "../_components/HeroServices";
+import HeroProjects  from "../_components/HeroProjects.jsx";
 import HomeHero from "../_pages/HomeHero";
 
 export default function HomePage() {
@@ -9,6 +10,9 @@ export default function HomePage() {
       </div>
       <div className="w-full px-8 md:px-16 lg:px-32">
         <HeroServices />
+      </div>
+      <div className="w-full px-8 md:px-16 lg:px-32">
+        <HeroProjects />
       </div>
     </main>
   );

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.grid {
+    grid-auto-rows: 10px; /* Adjust this to control row height */
+  }
+  .masonry-item {
+    grid-row-end: span 20; /* Span adjusts the height in grid rows */
+  }
+  /* Adjust based on the content */
+  .masonry-item:nth-child(1) { grid-row-end: span 30; }
+  .masonry-item:nth-child(2) { grid-row-end: span 25; }
+  .masonry-item:nth-child(3) { grid-row-end: span 40; }
+  .masonry-item:nth-child(4) { grid-row-end: span 35; }
+  .masonry-item:nth-child(5) { grid-row-end: span 20; }

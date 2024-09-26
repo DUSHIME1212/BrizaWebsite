@@ -44,7 +44,7 @@ const HomeHero = () => {
         <h1 ref={headingRef} id="head" className="text-7xl">
           Transforming Spaces Into Modern Masterpieces.
         </h1>
-        <p id="head" ref={headingRef} className="w-2/3 text-lg opacity-60">
+        <p className="w-2/3 text-lg opacity-60">
           Our Team of Expert Designers and Architects Create Stunning,
           Functional Interiors Tailored to Your Unique Style and Needs.
         </p>
